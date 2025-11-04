@@ -13,5 +13,10 @@ public class arrayValue24 {
             System.out.println("Student " + i + " Passed! ");
          }
       }
+      for (int i = 0; i < finalScores.length; i++) {
+         if (finalScores[i] < 70) {
+            System.out.println("Student " + i + " failed! ");
+         }
+      }
    }
 }
